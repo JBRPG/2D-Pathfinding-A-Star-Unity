@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Main Project/Scripts/PathFindingTest.cs">
+    <Files>
+      <File FileName="Assets/Main Project/Scripts/Graph.cs" Line="2" Column="26" />
+      <File FileName="Assets/Main Project/Scripts/Node.cs" Line="6" Column="47" />
+      <File FileName="Assets/Main Project/Scripts/Search.cs" Line="56" Column="22" />
+      <File FileName="Assets/Main Project/Scripts/PathFindingTest.cs" Line="59" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
