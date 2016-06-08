@@ -18,6 +18,14 @@ public class PathFindingTest : MonoBehaviour {
 			// 0 represents open space
 			// 1 represents solid wall
 
+
+			/* Let's turn a hard-coded map
+			 * into an editable checkbox
+			 * with true being solid space
+			 * and false being open space
+			 * 
+			*/
+
 			// For simple test purpose, a simple 2d array map is hard-coded
 			{0,1,0,0,0},
 			{0,1,0,0,0},
@@ -56,7 +64,7 @@ public class PathFindingTest : MonoBehaviour {
 	private void ResetMapGroup(Graph _graph){
 		foreach(Node node in _graph.nodes){
 			GetImage(node.label).color =
-				node.adjacent.Count == 0 ? Color.white : Color.gray;
+				node.adjacent.Count == 0 ? Color.grey : Color.white;
 		}
 	}
 	

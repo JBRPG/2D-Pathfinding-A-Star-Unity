@@ -47,6 +47,17 @@ public class Search
 
 	}
 
+
+	/*
+	 * With the base tutorial from Lynda.com
+	 * about pathfinding in unity by tile grid
+	 * There is not a way to choose a node based on cost
+	 * 
+	 * Future iterations should include cost
+	 * to pin down the shortest possible pathway
+	 * 
+	 */
+
 	public void Step ()
 	{
 		if (path.Count > 0) {
@@ -115,6 +126,9 @@ public class Search
 
 	public Node ChooseNode ()
 	{
+
+		// For more proper searches with A*,
+		// Consider the 'vertex' that reaches to the shortest neighbor.
 		return reachable [Random.Range (0, reachable.Count)];
 	}
 
